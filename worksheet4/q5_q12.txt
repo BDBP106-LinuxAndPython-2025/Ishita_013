@@ -1,0 +1,27 @@
+Q5) What are the 3 logical steps in accessing a file?
+
+Open the File: Use open() to access the file from the filesystem [text mode/binary mode, etc.].
+Access (Read/Write) the File: Perform read/write/append operations.
+Close the File: Use .close() method or a context manager (with statement) to free up resources.
+
+Q6) List and explain all the access modes used to operate on files.
+ Access Modes for Files
+    "r": Read mode
+    "r+": read and write mode
+    "w": Write mode (overwrites existing file)
+    "a": Append mode (writes at end, without overriding existing file)
+    "a+": Append mode (overwrites existing file))
+
+Q7) How can we confirm if a file has been closed or not?
+You can check the .closed attribute of a file object.It returns a Boolean value: True if the file is closed, and False if it is open. This attribute is very useful in file handling to check the status of a file before performing any read or write operations.
+
+Q8) Is it advisable to read the entire contents of a file in one go? If not, why would you avoid it and how?
+It is usually not advisable to read a large file in one go unless you are certain that the file is small and will not use excessive memory. This is because the read() or readlines() methods can load the entire file into memory, which may cause your program to run slowly or even crash if the file is huge. Instead, for large or unknown file sizes, read and process the file in smaller chunks or line by line, which is much more memory-efficient and scalable.
+
+Q9) How do you read a file’s contents one line at a time?
+The most memory-efficient way is to use a for loop directly on the file object. This reads one line at a time and does not load all lines into memory. This technique handles files of any size because it processes each line as it comes, rather than storing all lines at once.
+
+Q10) Write a short note on seeking within files.
+Seeking in files refers to moving the file pointer to a specific position within the file. This is useful when you want to read from or write to a particular location in a file rather than processing it sequentially from the beginning. The seeking mechanism allows random access, meaning you can jump to any byte position inside the file. This is especially important for large files or structured files where specific sections need to be accessed directly, such as headers or data blocks. The file pointer can be moved relative to the beginning of the file, the current position, or the end of the file.
+
+

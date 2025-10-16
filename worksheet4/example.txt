@@ -1,0 +1,3 @@
+This is an example file with random sentences
+Today is October 16
+Hence tomorrow will be October 17
