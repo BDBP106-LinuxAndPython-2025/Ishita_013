@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c3f75ad-9d45-48b8-ac2c-dc3c839b3411" name="Changes" comment="" />
+    <list default="true" id="f3aedad2-79c1-4540-9af2-fe249a03cd57" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Worksheet5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Worksheet5/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,10 +19,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
-}</component>
-  <component name="ProjectId" id="34XsSum6eD2sx8bF4M30OFqIXi1" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="34dFx1loxrqOGoFktX8hatPOxuQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,13 +30,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.main.executor": "Run",
-    "Python.q1.executor": "Run",
-    "Python.q4.executor": "Run",
-    "Python.q5.executor": "Run",
-    "Python.q8.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/home/ibab/git_tests/Ishita_013/worksheet6",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
@@ -54,7 +47,7 @@
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
@@ -76,11 +69,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2c3f75ad-9d45-48b8-ac2c-dc3c839b3411" name="Changes" comment="" />
-      <created>1761371253567</created>
+      <changelist id="f3aedad2-79c1-4540-9af2-fe249a03cd57" name="Changes" comment="" />
+      <created>1761535784661</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1761371253567</updated>
+      <updated>1761535784661</updated>
     </task>
     <servers />
   </component>
